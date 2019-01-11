@@ -34,13 +34,13 @@ try:
     enddate = moment.date(month + " 1, " + str(year)).add(months=1).subtract(days=1)
 except Exception as e:
     verified = False
-    print e
+    print(e)
 
 if(verified):
     APIRequest.requestData(_workspace_id,_api_token,startdate, enddate, year, output)
-    print "Success"
+    print("Success")
 else:
-    print "Invalid option. Try --help for docs"
+    print("Invalid option. Try --help for docs")
         
 
         
