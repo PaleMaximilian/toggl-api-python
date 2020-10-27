@@ -6,7 +6,7 @@ certifi==2018.11.29
 cffi==1.11.5
 chardet==3.0.4
 configparser==3.5.0
-cryptography==2.4.2
+cryptography==3.2
 dateparser==0.7.0
 ds4drv==0.5.1
 enum34==1.1.6
